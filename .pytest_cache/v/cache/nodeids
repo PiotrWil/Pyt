@@ -1,0 +1,5 @@
+[
+  "test_sample.py::test_assertsum",
+  "testowy.py::Basetest::test_something",
+  "testowy.py::Basetest::test_something1"
+]
