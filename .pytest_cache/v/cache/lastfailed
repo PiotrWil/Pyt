@@ -1,1 +1,7 @@
-{}
+{
+  "test_fixtureClass.py::Test_nowa_Test::test_first2[chrome]": true,
+  "test_fixtureClass.py::Test_nowa_Test::test_first[chrome-https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe0]": true,
+  "test_fixtureClass.py::Test_nowa_Test::test_first[chrome-https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe1]": true,
+  "test_fixtureClass.py::Test_nowa_Test::test_first[https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe0]": true,
+  "test_fixtureClass.py::Test_nowa_Test::test_first[https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe1]": true
+}

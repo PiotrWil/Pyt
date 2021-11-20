@@ -76,3 +76,33 @@ def met(a):
 print(list(met(5)))
 for r in met(5):
     print(r)
+
+
+stre = 'Hi'
+print([stre for stre in range(2)])
+
+
+def sum13(nums):
+  sum = 0
+  if nums[0] == 13:
+    sum = 0
+  else:
+    sum = nums[0]
+
+  for i in range(1, len(nums)):
+    if(nums[i] == 13 or nums[i-1] == 13):
+      continue
+    sum = sum + nums[i]
+  return sum
+
+print(sum13([13,4,6,14,13,7]))
+
+
+def so(a):
+    for i in range(len(a)-1):
+        for j in range(len(a)-i-1):
+            if a[j] > a[j+1]:
+                a[j], a[j+1] = a[j+1], a[j]
+    print(a)
+
+so([7,6,5,1,2,0])

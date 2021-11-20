@@ -1,5 +1,23 @@
 [
+  "test_fixtureClass.py::Test_nowa_Test::test_first",
+  "test_fixtureClass.py::Test_nowa_Test::test_first1",
+  "test_fixtureClass.py::Test_nowa_Test::test_first2[chrome]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[chrome-https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe0]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[chrome-https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe1]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[chrome-https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[chrome]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe0]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe1]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[proba-https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe0]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[proba-https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe1]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[proba-https://www.sport.pl/sport-hp/0,0.html-Sport na Sport.pl - Wyniki i wiadomo\\u015bci sportowe]",
+  "test_fixtureClass.py::Test_nowa_Test::test_first[proba]",
+  "test_sample.py::test_1assertsum",
+  "test_sample.py::test_1assertsum[a]",
+  "test_sample.py::test_1assertsum[b]",
   "test_sample.py::test_assertsum",
+  "test_sample.py::test_assertsum[a]",
+  "test_sample.py::test_assertsum[b]",
   "testowy.py::Basetest::test_something",
   "testowy.py::Basetest::test_something1"
 ]
