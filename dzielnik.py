@@ -106,3 +106,31 @@ def so(a):
     print(a)
 
 so([7,6,5,1,2,0])
+
+def bubble(co, first, last, number):
+    middle = first + int((last - first)/2)
+    print(middle)
+    if last > first:
+        if co[middle] == number:
+            return number
+        if co[middle] > number:
+            return bubble(co,first,middle-1,number)
+        elif co[middle] < number:
+            return bubble(co, middle+1, last, number)
+    return -1
+
+li = [3,7,1,9,34,78,23,0,65,4]
+li.sort(key = lambda x: x)
+print(li)
+last = len(li)-1
+
+print(bubble(li,0,last,3))
+middle = int((9 - 1)/2)
+print(middle)
+
+def proba(a):
+    if a == 2:
+        print('2')
+    print('-1')
+
+proba(2)

@@ -13,13 +13,16 @@ assert_that(r.json()['support']['url']).is_equal_to('https://reqres.in/#support-
 assert_that(r.ok).is_true()
 print(r.headers)
 
+
 with open("jso") as plik:
     js = json.load(plik)
 #params={'q': 'requests+language:python'},
 str_json = json.dumps(js)
-sr = {"name" : "pio", "job": "tester"}
+sr = '{"name": "pio", "job": "tester"}'
+srr = json.loads(sr)
 headers = {'Accept': 'application/json'}
-response = requests.post('https://reqres.in/api/users', headers=headers, data=js)
+response = requests.post('https://reqres.in/api/users', headers=headers, json=srr)
+#json and data work both for dictionary
 assert_that(response.status_code).is_equal_to(201)
 a = response.json()
 assert_that(a['name']).is_equal_to('pio')
